@@ -27,6 +27,7 @@ variable "user_data" {
 # Auto-Scaling Group
 #
 variable "asg_name" {}
+variable "asg_instance_name" {}
 
 /* We use this to populate the following ASG settings
  * - max_size
