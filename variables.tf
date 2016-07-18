@@ -20,7 +20,7 @@ variable "security_group" {
   description = "ID of SG the launched instance will use"
 }
 variable "user_data" {
-  description = "The path to a file with user_data for the instances"
+  description = "The user_data string for the instances"
 }
 
 #
